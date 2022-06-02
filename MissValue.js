@@ -15,5 +15,5 @@ function getMissNo(arr,n){
          return missNumber;
 }
 
-console.log("Missing Number is :"+missNumberIs);
+console.log("Missing Number is: "+missNumberIs);
 
