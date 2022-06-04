@@ -26,5 +26,5 @@ function getMissNo(arr,n){
      }
 
 }
-
+// print
 console.log("Missing Number is:- "+missNumberIs);
