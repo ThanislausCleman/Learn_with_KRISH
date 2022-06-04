@@ -12,7 +12,6 @@ function getMissNo(arr,n){
      sum-=arr[i];
 
      var missNumber=sum;
-     //console.log(missingNumber);
          
      if(missNumber < arr[n - 1]){ // missed a number but not first or last number
          return missNumber;
@@ -24,7 +23,6 @@ function getMissNo(arr,n){
          return (missNumber-(n+1));
      }else if(missNumber%2 == 1 && n%2 ==0){ //number of array element is even and last namber is missed
         return missNumber;
-         return missNumber;
      }
 
 }
